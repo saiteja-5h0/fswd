@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Login</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script defer src="assets/js/script.js"></script>  <!-- Link JavaScript -->
+</head>
+<body>
+
+    <header>
+        <h1>STUDENT LOGIN</h1>
+        <nav>
+            <a href="index.html">HOME</a>
+        </nav>
+    </header>
+
+    <section class="login-box">
+        <h2>Login</h2>
+        <form onsubmit="return validateLogin()">
+            <input type="email" id="email" placeholder="Enter Email" required>
+            <input type="password" id="password" placeholder="Enter Password" required>
+            <button type="submit" class="btn">Login</button>
+            <p id="error-msg" style="color: red;"></p>
+        </form>
+    </section>
+
+</body>
+</html>
